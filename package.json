@@ -1,0 +1,29 @@
+{
+  "name": "ts_example",
+  "version": "1.0.0",
+  "description": "- 타입스크립트 끄적끄적 거리는 연습장.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "dev": "tsc -w",
+    "ver": "tsc -v",
+    "lint": "yarn eslint . --ext .js,.jsx,.ts,.tsx"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hojae-lee/ts_pad.git"
+  },
+  "author": "jaeho_ring",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hojae-lee/ts_pad/issues"
+  },
+  "homepage": "https://github.com/hojae-lee/ts_pad#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.22.0",
+    "@typescript-eslint/parser": "^5.22.0",
+    "eslint": "^8.14.0",
+    "typescript": "^4.6.4"
+  }
+}

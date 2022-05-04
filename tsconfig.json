@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    // 컴파일되는 코드가 어떤 환경에서 실행되는지 정의. (국룰)
+    "target": "es5",
+    // 어떤 모듈을 이용할 것인지 (국룰)
+    "module": "commonjs",
+    // 모든 타입 체킹 욥션을 활성화
+    "strict": true,
+    // 타입스크립트에서 자바스크립트로 트랜스파일링 되는 경로
+    "outDir": "./dist"
+  },
+  "include": ["prac/*"],
+  "exclude": ["node_modules"]
+}
